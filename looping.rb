@@ -15,8 +15,10 @@ def fizzbuzz(num)
   end
 end
 
-def fizzbuzz_printer
-  # your code here
+def fizzbuzz_printer(max)
+  (1..max).each do |num|
+    puts fizzbuzz(num)
+  end
 end
 
 def reverse_string(str)
